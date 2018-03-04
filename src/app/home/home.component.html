@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div [hidden]='image'>
+      <h3> <img src="../assets/photo/jegan.png">
+    <a routerLink='welcome'(click)='hidewelcome()'>WELCOME</a> | 
+    <a routerLink='about'(click)='hidewelcome()'> ABOUT US</a> | 
+    <a routerLink='science'(click)='hidewelcome()'> SCIENCE</a> |
+    <a routerLink='politics'(click)='hidewelcome()'> INDIAN POLITICS</a> |
+    <a routerLink='tech'(click)='hidewelcome()'> TECHNOLOGY</a> |
+    <a routerLink='sports'(click)='hidewelcome()'> SPORTS</a> |
+    <a href='../app.component.html' (click)='hidewelcome()'> LOG OUT</a></h3>
+</div><hr/><br>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+  <div [hidden]='welcome'>
+  <app-welcome></app-welcome>
+</div>
+</body>
+</html>

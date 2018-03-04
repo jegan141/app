@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div [hidden]='image' align ='center'>
+    <img src="../assets/photo/jegan.png"><br><br><br>
+  </div>
+  <div class='row'>
+  <div class='col-lg-3'>
+
+  </div>
+  
+  <div class='col-lg-6' [hidden]='login'>
+    <div class='row'>
+    <div class='col-lg-3'></div>
+    <div class='card col-lg-6'>
+    <h1 align='center'>LOG IN</h1>
+    
+      <label>NAME</label>
+      <input type="text" #name><br>
+      <label>M.NO</label>
+      <input type="number" #mob><br><br>
+      <button type="submit" (click)='alert(name.value,mob.value)'>SIGN UP</button>
+    </div>
+      <div class='col-lg-0'></div>
+</div>
+</div>
+
+<div class='col-lg-3'>
+
+</div>
+</div>
+<div align='center' [hidden]='otpkey'>
+  <label>ENTER THE OTP</label>
+  <input type="password" #pass><br><br>
+  <button (click)='otp(pass.value)'>SUBMIT</button>
+</div>
+<div [hidden]='home'>
+  <app-home></app-home>
+</div>
+</body>
+</html>

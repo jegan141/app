@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id='qn1' class='row'[hidden]='qn1'>
+    <div class='col-sm-3'></div>
+      <div class='card col-sm-6'>
+      
+        <h1 align='center'>SPORTS</h1>
+        <h2>1) Who was the first Indian to win an individual medal in Olympics?</h2><br>
+      <div class='row' [hidden]='qns1'>
+        <div class='col-sm-6'>
+          <button class="btn btn-default" (click)='wAns1()'>A. Milkha Singh</button><br><br>
+          <button class="btn btn-default" (click)='wAns1()'>C. P.T.Usha
+            </button>
+        </div>
+        <div class='col-sm-6'>
+            <button class="btn btn-default" (click)='wAns1()'>B. Karnam Malleshwari</button><br><br>
+            <button class="btn btn-default" (click)='cAns1()'>D. K.D.Jadhav</button>
+        </div>
+        </div>
+        <div class='row' [hidden]='ans1'>
+            <div class='col-sm-6'>
+              <button class="btn btn-danger" >A. Milkha Singh</button><br><br>
+              <button class="btn btn-danger" >C. P.T.Usha
+                </button>
+            </div>
+            <div class='col-sm-6'>
+                <button class="btn btn-danger">B. Karnam Malleshwari</button><br><br>
+                <button class="btn btn-success" >D. K.D.Jadhav</button>
+    <div class='row'>
+      <div class='col-sm-11'></div>
+      <div class='col-sm-1'><br><br><button (click)='nextBut1()' [hidden]='next1'>NEXT</button></div>
+    </div>
+            </div>
+      </div> 
+</div>
+    <div class='col-sm-3'></div>
+  
+  </div>
+  <div id='qn2' class='row'[hidden]='qn2'>
+    <div class='col-sm-3'></div>
+      <div class='card col-sm-6'>
+      
+        <h1 align='center'>SPORTS</h1>
+        <h2 >2) What shirt number will Cristiano Ronaldo wear at Real Madrid?</h2><br>
+      <div class='row' [hidden]='qns2'>
+        <div class='col-sm-6'>
+          <button class="btn btn-default" (click)='cAns2()'>A. SEVEN</button><br><br>
+          <button class="btn btn-default" (click)='wAns2()'>C. NINE</button>
+        </div>
+        <div class='col-sm-6'>
+            <button class="btn btn-default" (click)='wAns2()'>B. FOURTEEN</button><br><br>
+            <button class="btn btn-default" (click)='wAns2()'>D. TWENTY THREE</button>
+        </div>
+        </div>
+        <div class='row' [hidden]='ans2'>
+            <div class='col-sm-6'>
+              <button class="btn btn-success">A. SEVEN</button><br><br>
+              <button class="btn btn-danger">C. NINE</button>
+            </div>
+            <div class='col-sm-6'>
+                <button class="btn btn-danger" >B. FOURTEEN</button><br><br>
+                <button class="btn btn-danger" >D. TWENTY THREE</button>
+    <div class='row'>
+      <div class='col-sm-11'></div>
+      <div class='col-sm-1'><br><br><button (click)='nextBut2()' [hidden]='next2'>NEXT</button></div>
+    </div>
+            </div>
+      </div> 
+</div>
+    <div class='col-sm-3'></div>
+  </div>
+  <div id='qn3' class='row'[hidden]='qn3'>
+    <div class='col-sm-3'></div>
+      <div class='card col-sm-6'>
+      
+        <h1 align='center'>SPORTS</h1>
+        <h2 >3) Name the Indian Chess player who has broken the World Record by finishing the game in first twelve moves?</h2><br>
+      <div class='row' [hidden]='qns3'>
+        <div class='col-sm-6'>
+          <button class="btn btn-default" (click)='cAns3()'>A. Vishwanathan Anand</button><br><br>
+          <button class="btn btn-default" (click)='wAns3()'>C. Champa Bose</button>
+        </div>
+        <div class='col-sm-6'>
+            <button class="btn btn-default" (click)='wAns3()'>B. Sakunthala Devi</button><br><br>
+            <button class="btn btn-default" (click)='wAns3()'>D. Praveen Thipsey</button>
+        </div>
+        </div>
+        <div class='row' [hidden]='ans3'>
+            <div class='col-sm-6'>
+              <button class="btn btn-success">A. Vishwanathan Anand</button><br><br>
+              <button class="btn btn-danger">C. Champa Bose</button>
+            </div>
+            <div class='col-sm-6'>
+                <button class="btn btn-danger" >B. Sakunthala Devi</button><br><br>
+                <button class="btn btn-danger" >D. Praveen Thipsey</button>
+    <div class='row'>
+      <div class='col-sm-11'></div>
+      <div class='col-sm-1'><br><br><button (click)='nextBut3()' [hidden]='next3'>NEXT</button></div>
+    </div>
+            </div>
+      </div> 
+</div>
+    <div class='col-sm-3'></div>
+  </div>
+  <div id='qn4' class='row'[hidden]='qn4'>
+    <div class='col-sm-3'></div>
+      <div class='card col-sm-6'>
+      
+        <h1 align='center'>SPORTS</h1>
+        <h2 >4) Who won the Grand Slam title four times successively?</h2><br>
+      <div class='row' [hidden]='qns4'>
+        <div class='col-sm-6'>
+          <button class="btn btn-default" (click)='wAns4()'>A. Mortina Navratilova</button><br><br>
+          <button class="btn btn-default" (click)='cAns4()'>C. Steffi Graf</button>
+        </div>
+        <div class='col-sm-6'>
+            <button class="btn btn-default" (click)='wAns4()'>B. Jennifer Capriati</button><br><br>
+            <button class="btn btn-default" (click)='wAns4()'>D. Monica Seles</button>
+        </div>
+        </div>
+        <div class='row' [hidden]='ans4'>
+            <div class='col-sm-6'>
+              <button class="btn btn-danger">A. Mortina Navratilova</button><br><br>
+              <button class="btn btn-success" >C. Steffi Graf</button>
+            </div>
+            <div class='col-sm-6'>
+                <button class="btn btn-danger">B. Jennifer Capriati</button><br><br>
+                <button class="btn btn-danger" >D. Monica Seles</button>
+    <div class='row'>
+      <div class='col-sm-11'></div>
+      <div class='col-sm-1'><br><br><button (click)='nextBut4()' [hidden]='next4'>NEXT</button></div>
+    </div>
+            </div>
+      </div> 
+</div>
+    <div class='col-sm-3'></div>
+  </div>
+  <div id='qn5' class='row'[hidden]='qn5'>
+    <div class='col-sm-3'></div>
+      <div class='card col-sm-6'>
+      
+        <h1 align='center'>SPORTS</h1>
+        <h2 >5) 	
+            'Ashes' is the term associates with which sports?</h2><br>
+      <div class='row' [hidden]='qns5'>
+        <div class='col-sm-6'>
+          <button class="btn btn-default" (click)='wAns5()'>A. Basketball</button><br><br>
+          <button class="btn btn-default" (click)='cAns5()'>C. Cricket</button>
+        </div>
+        <div class='col-sm-6'>
+            <button class="btn btn-default" (click)='wAns5()'>B. Hockey</button><br><br>
+            <button class="btn btn-default" (click)='wAns5()'>D. Volleyball</button>
+        </div>
+        </div>
+        <div class='row' [hidden]='ans5'>
+            <div class='col-sm-6'>
+              <button class="btn btn-danger" >A. Basketball</button><br><br>
+              <button class="btn btn-success" >C. Cricket</button>
+            </div>
+            <div class='col-sm-6'>
+                <button class="btn btn-danger" >B. Hockey</button><br><br>
+                <button class="btn btn-danger" >D. Volleyball</button>
+    <div class='row'>
+      <div class='col-sm-11'></div>
+      <div class='col-sm-1'><br><br><button (click)='finish()' [hidden]='next5'>FINISH</button></div>
+    </div>
+            </div>
+      </div> 
+</div>
+    <div class='col-sm-3'></div>
+  </div>
+  <div class='row'[hidden]='scoreCard'>
+    <div class='col-sm-4'></div>
+    <div class='col-sm-4'><h1 align='center'>RESULT</h1><br>
+<h2 align='center'>YOUR SCORE IS : {{count}}/5</h2>
+    </div>
+    <div class='col-sm-4'></div>
+  </div>
+  <div class='row' [hidden]='scoreCard'>
+    <div class='col-sm-4'></div>
+    <div class='col-sm-8'><img src='../../assets/photo/{{count}}.jpeg' class="card img-circle" width="500" height="370"></div>
+  </div>
+</body>
+</html>
